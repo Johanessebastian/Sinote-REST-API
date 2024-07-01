@@ -41,9 +41,6 @@ project/
 ├── server.js
 └── README.md
 
-markdown
-Salin kode
-
 ## Getting Started
 
 ### Prerequisites
@@ -62,8 +59,9 @@ Salin kode
 Install dependencies:
 
 bash
-Salin kode
+
 npm install
+
 Set up Firebase:
 
 Create a Firebase project in the Firebase Console.
@@ -74,13 +72,13 @@ Set up environment variables:
 Create a .env file in the root directory and add the following:
 
 makefile
-Salin kode
+
 SESSION_SECRET=your-session-secret
 Running the Server
 To start the server, run:
 
 bash
-Salin kode
+
 npm start
 The server will run on http://localhost:3000.
 
