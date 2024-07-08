@@ -1,9 +1,9 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./sinote-c7912-firebase-adminsdk-82ex8-9414a1de51.json'); 
+const serviceAccount = require('./ganti dgn key firebase.json'); 
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://sinote-c7912-default-rtdb.asia-southeast1.firebasedatabase.app/', 
+  databaseURL: 'ganti dgn link realtime databse firebase/', 
 });
 
 const db = admin.firestore();
